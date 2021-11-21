@@ -1,0 +1,121 @@
+body
+{
+  background-color: white;
+  transition: background-color 0.4s ease;
+}
+
+body.Background
+{
+background-color: rgba(0, 0, 0, 0.2);
+}
+
+
+#EditArea
+{
+  transition: margin-left 0.3s ease;
+}
+
+.EditArea
+{
+  margin-left: 40%;
+  margin-right: 40%;
+  min-width: 500px;
+  max-width: 500px;
+  min-height: 350px;
+  max-height: 350px;
+  border-radius: 10px;
+  border: 5px outset white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+}
+
+
+.EditButt
+{
+  cursor: pointer;
+  border: none;
+  background: none;
+  position:absolute;
+  margin-top: -280px;
+  margin-right: 400px;
+  font-size: 20px;
+}
+
+.EditButt:hover
+{
+  cursor: pointer;
+  color: rgba(0, 0, 0, 0.7);
+
+
+}
+
+
+#DelButton
+{
+  font-size: 20px;
+  margin-top: 30px;
+  width: 85px;
+  height: 50px;
+}
+
+
+.DropDownMult
+{
+  width:200px;
+  height: 150px;
+  margin-top: 20px;
+}
+
+.CenterArea
+{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+/* tool tip */
+.tooltip {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black;
+  /* move the tool tip */
+  bottom: -110px;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 230px;
+  height: fit-content;
+  background-color: #555;
+  color: #fff;
+  text-align: start;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: 50%;
+  margin-left: -110px;
+  opacity: 0;
+  transition: opacity 0.4s;
+}
+
+.tooltip .tooltiptext::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #555 transparent transparent transparent;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}

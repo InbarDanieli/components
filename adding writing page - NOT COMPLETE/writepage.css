@@ -1,0 +1,11 @@
+#text
+{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+#textINP
+{
+  resize: none;
+}

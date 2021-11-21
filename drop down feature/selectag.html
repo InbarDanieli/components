@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+  <main>
+    <link rel="stylesheet" href="selectTag.css">
+    <div disabled id="NonEditArea">
+      <input id="input" type="text">
+      <button id="AddItemButt" onclick="AddItem()">+</button>
+      <br>
+      <p id="output"></p>
+    </div>
+
+    <div id="CenterArea">
+      <div id=EditArea>
+        <form style="display: inline;" id="FormId">
+          <select name="items" id="items">
+            <option style="display: none;" value="" disabled selected>Select your option</option>
+            <option value="1">item1</option>
+            <option value="2">item 2</option>
+            <option value="3">item 3</option>
+            <option value="4">item 4</option>
+          </select>
+        </form>
+        <button id="EditButton" onclick="EditItems()">edit</button>
+        <div class="tooltip" id="ToolTip">help
+          <span class="tooltiptext"><b style="margin-left: 25px;">to select multiple items:</b>
+            <hr>
+            <ol>
+              <li>ctrl + click on items</li>
+              <li>hold left click on the mouse + drag on the items</li>
+            </ol>
+          </span>
+        </div>
+      </div>
+    </div>
+
+    <script src="selecttag.js"></script>
+  </main>
+</body>
+
+</html>
