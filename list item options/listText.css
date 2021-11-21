@@ -1,0 +1,17 @@
+#listItem
+{
+display: flex;
+}
+
+summary
+{
+  list-style: none;
+  cursor: pointer;
+
+}
+
+details
+{
+  margin-left: 30px;
+  display: inline;
+}
