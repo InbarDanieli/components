@@ -1,2 +1,2 @@
-# tooltip
+# Tooltip
 will create tooltip component

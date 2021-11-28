@@ -1,2 +1,3 @@
 # Color Picker
-component that will take the user color choice and change the background color of the page
+
+component that gets the user's color choice and display these choices on the background color

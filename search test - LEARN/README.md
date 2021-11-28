@@ -1,2 +1,2 @@
-# search
+# Search
 NOT GOING TO BE A COMPONENT YET
