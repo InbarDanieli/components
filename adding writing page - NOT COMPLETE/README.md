@@ -1,0 +1,2 @@
+# Adding Writing Page
+NOT GOING TO BE A COMPONENT YET

@@ -1,0 +1,2 @@
+# Local Storage
+I decided to do a little experiment with local storage's Properties, and created little template where you can add name and last name and it will save it in your local storage :slightly_smiling_face:
