@@ -9,8 +9,9 @@ function AutoInput(props) {
 
   return (
     <div>
-      <p>{input}</p>
       <input type="text" placeholder={props.placeholder || "write in here!"} onChange={ChangeHandlerInput} />
+      <br/>
+      {input}
     </div>
   )
 }
