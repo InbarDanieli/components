@@ -1,5 +1,5 @@
-import './App.css';
-import AutoInput from './components/auto-input/AutoInput';
+// import './App.css';
+// import AutoInput from './components/auto-input/AutoInput';
 import SearchBar from './components/SearchBar';
 
 function App() {
