@@ -14,4 +14,7 @@ this property will delete an item you choose (by writing the key of the value)
 
 ### `clear()`
 this property is really doing what it called, it delete (or clear) all the items in the storage
-""``
+
+
+> ### pro tip: 
+> all the changes you commiited will added in the web only after the user reload the page, to make a better ux (user expereance) you can add: `location.reload()` to reload automatically
