@@ -1,2 +1,2 @@
-## goal:
-change the code from js vanilla to react components
+# components
+my goal is to create basic components to use when needed 🙂
