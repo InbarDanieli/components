@@ -1,5 +1,5 @@
 # components
-my goal is to create basic [React Components](/to-react) to use when needed 🙂
+my goal is to create basic <a href="/to-react" target="_blank">React Components</a> to use when needed 🙂
 
 - [X] Search-Bar
 - [ ] Flip-Cards
