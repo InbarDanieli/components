@@ -2,6 +2,7 @@
 my goal is to create basic <a href="/to-react" target="_blank">React Components</a> to use when needed 🙂
 
 - [X] Search-Bar
+- [ ] Local Storage
 - [ ] Flip-Cards
 - [ ] Color Picker
 - [ ] Del Multypul select
