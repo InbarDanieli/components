@@ -1,15 +1,14 @@
 // import './App.css';
-// import AutoInput from './components/auto-input/AutoInput';
 import { useState } from 'react';
-import FullSearch from './components/search-bar/Test/FullSearch';
+import AutoInput from './components/auto-input/AutoInput';
 
 
 function App() {
 
   return (
     <div className="App">
-      <FullSearch/>
-    </div>
+<AutoInput/>
+          </div>
   );
 }
 
