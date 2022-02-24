@@ -1,14 +1,14 @@
 // import './App.css';
-import { useState } from 'react';
-import AutoInput from './components/auto-input/AutoInput';
+import react from 'react';
+import SideBarRTL from './components/SideBar/SideBar';
 
 
 function App() {
 
   return (
     <div className="App">
-<AutoInput/>
-          </div>
+      <SideBarRTL />
+    </div>
   );
 }
 
