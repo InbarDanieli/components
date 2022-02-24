@@ -3,12 +3,11 @@ my goal is to create basic <a href="/to-react" target="_blank">React Components<
 
 - [X] Search-Bar
 - [X] Auto Input
+- [X] SideBar
 - [ ] Local Storage
 - [ ] Flip-Cards
 - [ ] Color Picker
 - [ ] Del Multypul select
 - [ ] Drop Down Feature
 - [ ] List Item Options
-- [ ] SideBar ltr
-- [ ] SideBar rtl
 - [ ] ToolTip
