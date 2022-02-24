@@ -1,0 +1,63 @@
+.wrapper {
+  width: 100vw;
+  height: 100vh;
+}
+
+.button {
+  /* to make it LTR just change the "right" to "left" */
+  float: right;
+  font-weight: bold;
+  padding: 0px;
+  border: 0px none;
+  font-size: 25px;
+  cursor: pointer;
+  width: 35px;
+  background-color: transparent;
+}
+
+
+.open-sideB {
+  width: 200px;
+  height: 100%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  /* to make it LTR just change the "right" to "left" */
+  right: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  padding-top: 20px;
+  transition: width 0.5s ease;
+}
+
+.open-sideB.close {
+  width: 0;
+}
+
+.open-sideB a, .open-sideB span {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  text-align: center;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+}
+
+.open-sideB a:hover {
+  color: #f1f1f1;
+}
+
+.open-sideB span {
+  float: right;
+}
+
+
+@keyframes openSB {
+  0% {
+    width: 0
+  }
+
+  100% {
+    width: 160px
+  }
+}
