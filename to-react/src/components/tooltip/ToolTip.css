@@ -1,0 +1,42 @@
+.wrapper
+{
+  text-align: center;
+}
+
+.tooltip {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black;
+  margin-top: 300px;
+}
+
+.tooltip .tooltiptext {
+  width: 220px;
+  background-color: #555;
+  color: #fff;
+  text-align: start;
+  border-radius: 6px;
+  padding: 10px;
+  position: absolute;
+  /* to place the tooltip bottom, change it to "bottom"*/
+  top: -160px;
+  left: -105px;
+  opacity: 0;
+  transition: opacity 0.5s;
+}
+
+.tooltip .tooltiptext::after {
+  content: "";
+  position: absolute;
+  /* to place the arror up, change it to "bottom"*/
+  top: 100%;
+  left: 46%;
+  border-width: 8px;
+  border-style: solid;
+  /* to make the arror up, change the color in the "down"*/
+  border-color: #555 transparent transparent transparent;
+}
+
+.tooltip:hover .tooltiptext {
+  opacity: 1;
+}

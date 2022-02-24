@@ -1,13 +1,13 @@
 // import './App.css';
 import react from 'react';
-import SideBarRTL from './components/SideBar/SideBar';
+import ToolTip from './components/tooltip/ToolTip';
 
 
 function App() {
 
   return (
     <div className="App">
-      <SideBarRTL />
+      <ToolTip/>
     </div>
   );
 }
